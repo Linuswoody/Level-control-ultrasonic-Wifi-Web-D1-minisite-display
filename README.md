@@ -24,7 +24,9 @@ Many thanks for this very good work and documentation! It gave me a rather quick
 Parts that I have used:
 Wemos D1 mini lite
 Ultraschallentfernungsmesser AJ-SR04M / JSN-SR04T Wasserdicht
-2x LiFePO4 battery cells
+2x LiFePO4 battery cells (3.3 V)
+step-up voltage converter (3.3 to 5 V for distance sensor power supply)
+capacitor (ca 470 µF to buffer 3.3 V line)
 resistors
 transistor
 water tight box
