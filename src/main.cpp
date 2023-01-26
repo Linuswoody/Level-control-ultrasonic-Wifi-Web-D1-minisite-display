@@ -244,7 +244,7 @@ void Publish() {
     client.print(postData);
     delay(100);
     
-    Serial.println(postData);
+    Serial.println(postData);   //Print postData to serial monitor in any case
 
     if (client.connected()) {
       client.stop();
